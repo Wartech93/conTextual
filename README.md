@@ -9,17 +9,18 @@ conTextual is an installable web text editor. You can install and use it offline
 
 
 
-[Introduction]
-[Folder Structure]
-[Getting Started]
-[Features]
-[Deployment]
-[Technologies Used]
-[License]
+- [Introduction](#introduction)
+- [Folders](#folders)
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Deployment](#deployment)
+- [Technologies Used](#technologies-used)
+- [License](#license)
+
 Introduction
 This is a text editor web application designed to provide a seamless editing experience with offline capabilities. The application utilizes modern web technologies such as Webpack, IndexedDB, and service workers to ensure efficient performance and reliability.
 
-## Folder Structure
+## Folders
 The project is organized into a client-server architecture:
 ```
 root
@@ -64,8 +65,10 @@ To start the application, run the following command from the root directory:
 This command will start up the backend server and serve the client application.
 
 
-[Screenshot]("./images/Screenshot1.png")
+![Screenshot](./images/Screenshot1.png)
+
 ## Features
+
 Client-Server Architecture: Organized folder structure separating client and server code.
 Bundling with Webpack: JavaScript files are bundled using Webpack.
 Generated Assets: Webpack plugins generate an HTML file, service worker, and a manifest file.
@@ -78,18 +81,25 @@ Service Worker: Registers a service worker using Workbox for offline capabilitie
 Caching: Static assets and pages are pre-cached upon loading.
 
 ## Deployment
-To deploy the application to Render, ensure you have proper build scripts for a Webpack application:
 
-Set up the build scripts in package.json.
-Configure your Render deployment settings to run the build and start commands.
+Render Link: 
+
+Github Repository: 
+
 ## Technologies Used
+
 Node.js: JavaScript runtime for server-side code.
 Express: Web framework for Node.js.
 Webpack: Module bundler for JavaScript.
 IndexedDB: NoSQL database for client-side storage.
 Workbox: Service worker libraries for offline caching.
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 For any issues or contributions, please open a pull request or issue on the GitHub repository.
+
+### Author
+
+Royce Atkins, a web developer from Pennyslvania expanding his knowledge on PWAs!
